@@ -37,6 +37,32 @@
                     Console.WriteLine("Invalid input. Please enter a valid number.");
                 }
             }
+
+
+            Console.WriteLine("What is your favorite school subject?");
+            string favoriteSubject = Console.ReadLine();
+
+            switch (favoriteSubject)
+            {
+                case "Math":
+                    Console.WriteLine("Math is a great subject! What do you like about it?.");
+                    break;
+                case "Science":
+                    Console.WriteLine("Science is a great subject! What do you like about it?.");
+                    break;
+                case "History":
+                    Console.WriteLine("History is a great subject! What do you like about it?.");
+                    break;
+                case "English":
+                    Console.WriteLine("English is a great subject! What do you like about it?.");
+                    break;
+                case "Art":
+                    Console.WriteLine("Art is a great subject! What do you like about it?.");
+                    break;
+                default:
+                    Console.WriteLine("Interesting choice! What do you like about it?");
+                    break;
+            }
         }
     }
 }
